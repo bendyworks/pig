@@ -6,9 +6,10 @@ The pig gem takes its name from the classic story of the chicken and the pig. Ma
 
 h2. Usage
 
-* Include the gem.
+* Include the gem in your Gemfile.
 * Run the generator.
     bundle exec rails generate pig
+* Start your server
 * Visit '/revision'
 
 h3. Note on Patches/Pull Requests
