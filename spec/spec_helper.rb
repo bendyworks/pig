@@ -1,9 +1,8 @@
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+require 'rspec'
+# optionally add autorun support
+require 'rspec/autorun'
 require 'pig'
-require 'spec'
-require 'spec/autorun'
 
-Spec::Runner.configure do |config|
-  
+Rspec.configure do |c|
+  c.mock_with :rspec
 end

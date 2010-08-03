@@ -1,0 +1,72 @@
+--- 
+dependencies: 
+  rspec-core: 
+    group: 
+    - :test
+    version: = 2.0.0.beta.17
+  ruby-debug: 
+    group: 
+    - :development
+    - :test
+    version: = 0.10.3
+  shoulda: 
+    group: 
+    - :test
+    version: = 2.11.1
+  rspec: 
+    group: 
+    - :test
+    version: = 2.0.0.beta.17
+  rspec-expectations: 
+    group: 
+    - :test
+    version: = 2.0.0.beta.17
+  rspec-rails: 
+    group: 
+    - :test
+    version: = 2.0.0.beta.17
+  git: 
+    group: 
+    - :default
+    version: = 1.2.5
+  rspec-mocks: 
+    group: 
+    - :test
+    version: = 2.0.0.beta.17
+specs: 
+- columnize: 
+    version: 0.3.1
+- diff-lcs: 
+    version: 1.1.2
+- git: 
+    version: 1.2.5
+- linecache: 
+    version: "0.43"
+- nokogiri: 
+    version: 1.4.3.1
+- rack: 
+    version: 1.2.1
+- rack-test: 
+    version: 0.5.4
+- rspec-core: 
+    version: 2.0.0.beta.17
+- rspec-expectations: 
+    version: 2.0.0.beta.17
+- rspec-mocks: 
+    version: 2.0.0.beta.17
+- rspec: 
+    version: 2.0.0.beta.17
+- webrat: 
+    version: 0.7.1
+- rspec-rails: 
+    version: 2.0.0.beta.17
+- ruby-debug-base: 
+    version: 0.10.3
+- ruby-debug: 
+    version: 0.10.3
+- shoulda: 
+    version: 2.11.1
+hash: 4084f90b2306051a10d4282e7577b7acc97a8284
+sources: 
+- Rubygems: 
+    uri: http://rubygems.org
