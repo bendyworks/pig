@@ -31,7 +31,10 @@ class Pig
   end
 
   def call(env)
-    [200, {"Content-Type" => "text/plain"}, [history]]
+    rack_response_template << [history]
   end
 
+  def rack_response_template
+    [200, {"Content-Type" => "text/plain"}]
+  end
 end
