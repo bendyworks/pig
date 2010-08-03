@@ -3,7 +3,6 @@ require 'rails/generators'
 class PigGenerator < Rails::Generators::Base
 
   def install_pig
-    gem("pig")
     route("match '/revision', :to => Pig.new")
   end
 
