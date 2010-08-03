@@ -2,6 +2,8 @@ h1. pig
 
 h5. A rack endpoint to easily view the latest commits in an environment.
 
+The idea was born from a need on a recent project. The solution was inspired by the fine folks at "BendyWorks":http://bendyworks.com while co-working with them in Madison, WI.
+
 The pig gem takes its name from the classic story of the chicken and the pig. Many versions of this story exist and are retold with various twists. The base of the story is that the chicken and the pig decide to make a meal of Ham and Eggs (often as part of opening a restaurant), after careful consideration the pig decides against entering the partnership. The concern is that the chicken is involved but the pig would be committed.
 
 h2. Usage
