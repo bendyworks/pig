@@ -2,11 +2,19 @@ require 'git'
 
 class Pig
 
-  WORKING_DIR = File.join(File.dirname(File.expand_path(__FILE__)), "..", "..")
+  WORKING_DIR = File.join(File.dirname(File.expand_path(__FILE__)), "..")
   NUMBER_OF_COMMITS = 10
 
+  def root_dir
+    if defined? Rails
+      Rails.root
+    else
+      WORKING_DIR
+    end
+  end
+
   def repository
-    Git.open(WORKING_DIR)
+    Git.open(root_dir)
   end
 
   def history
