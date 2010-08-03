@@ -12,7 +12,6 @@ begin
     gem.authors = ["Jim Remsik"]
     gem.add_dependency "git", "= 1.2.5"
     gem.add_development_dependency "rspec", ">= 1.2.9"
-    gem.add_development_dependency "yard", ">= 0"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
