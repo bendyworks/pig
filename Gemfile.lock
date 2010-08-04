@@ -2,6 +2,7 @@
 dependencies: 
   rspec-core: 
     group: 
+    - :development
     - :test
     version: = 2.0.0.beta.17
   ruby-debug: 
@@ -11,18 +12,22 @@ dependencies:
     version: = 0.10.3
   shoulda: 
     group: 
+    - :development
     - :test
     version: = 2.11.1
   rspec: 
     group: 
+    - :development
     - :test
     version: = 2.0.0.beta.17
   rspec-expectations: 
     group: 
+    - :development
     - :test
     version: = 2.0.0.beta.17
   rspec-rails: 
     group: 
+    - :development
     - :test
     version: = 2.0.0.beta.17
   git: 
@@ -31,6 +36,7 @@ dependencies:
     version: = 1.2.5
   rspec-mocks: 
     group: 
+    - :development
     - :test
     version: = 2.0.0.beta.17
 specs: 
@@ -66,7 +72,7 @@ specs:
     version: 0.10.3
 - shoulda: 
     version: 2.11.1
-hash: 4084f90b2306051a10d4282e7577b7acc97a8284
+hash: 45373b78f0376eb4c1733702e57707bf509d8303
 sources: 
 - Rubygems: 
-    uri: http://rubygems.org
+    uri: http://gemcutter.org
