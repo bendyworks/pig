@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rake'
+require 'rspec/core/rake_task'
 
 begin
   require 'jeweler'
@@ -17,3 +18,7 @@ begin
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
 end
+
+RSpec::Core::RakeTask.new(:spec)
+
+task :default => [:spec]
