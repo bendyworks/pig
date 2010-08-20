@@ -9,12 +9,12 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jim Remsik"]
-  s.date = %q{2010-08-03}
+  s.date = %q{2010-08-20}
   s.description = %q{A rack endpoint to dynamically view the latest N formatted commits.  Pig takes its name from the classic story of the chicken and the pig.  Many versions of this idea exist as jokes or anecdotes wherein the two decide to start a restaurant named Ham-n-Eggs.  Ultimately, the pig chooses not to participate because he would be committed and the chicken merely involved.}
   s.email = %q{bigtiger@hashrocket.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.textile"
   ]
   s.files = [
     ".document",
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
      "Gemfile",
      "Gemfile.lock",
      "LICENSE",
-     "README.rdoc",
+     "README.textile",
      "Rakefile",
      "VERSION",
      "lib/generators/pig/pig_generator.rb",
