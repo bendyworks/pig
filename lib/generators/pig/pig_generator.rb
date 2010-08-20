@@ -2,8 +2,12 @@ require 'rails/generators'
 
 class PigGenerator < Rails::Generators::Base
 
+  class_option :skip_routes, :type => :boolean, :default => false
+
   def install_pig
-    route("match '/revision', :to => Pig.new")
+    if options[:skip_routes]
+      puts "Nothing to do"
+    end
   end
 
   def self.source_root
