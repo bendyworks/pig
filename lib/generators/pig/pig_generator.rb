@@ -28,7 +28,7 @@ class PigGenerator < Rails::Generators::Base
 
   def formatted_revision_path
     path = options[:revision_path]
-    path.starts_with?('/') ? path : '/#{path}'
+    path.starts_with?('/') ? path : "/#{path}"
   end
 
 end
