@@ -2,7 +2,11 @@ require 'rails/generators'
 
 class PigGenerator < Rails::Generators::Base
 
-  class_option :revision_path, :default => '/revision'
+  class_option :revision_path,
+    :banner => '/path_to_revisions',
+    :default => '/revision',
+    :desc => 'A root-relative path at which to display revision information.'
+
   class_option :skip_routes,
     :type => :boolean,
     :default => false,
