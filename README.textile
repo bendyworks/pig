@@ -1,4 +1,4 @@
-h1. pig
+h1. pig - Its what's committed
 
 h5. A rack endpoint to easily view the latest commits in an environment.
 
