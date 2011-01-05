@@ -17,13 +17,13 @@ describe Pig do
   end
 
   describe "#format" do
-
-    let(:commit) { stub(:author => author, :to_s => "393932") }
+    let(:commit_message) { stub(:to_s => "One great commit") }
     let(:author) { stub(:date => date, :name => "Dev Author") }
     let(:date) { stub(:strftime => "12-31-01") }
+    let(:commit) { stub(:author => author, :to_s => "393932", :message => commit_message) }
 
-    it "returns the sha1, date, and author by default" do
-      pig.format(commit).should == "393932 12-31-01 Dev Author\n"
+    it "returns the commit message, sha1, date, and author by default" do
+      pig.format(commit).should == "One great commit\n  393932\n  12-31-01 Dev Author\n\n"
     end
 
   end

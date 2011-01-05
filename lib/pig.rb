@@ -27,7 +27,7 @@ class Pig
   end
 
   def format(commit)
-    "#{commit.to_s} #{commit.author.date.strftime("%Y-%m-%d")} #{commit.author.name}\n"
+    "#{commit.message}\n  #{commit.to_s}\n  #{commit.author.date.strftime("%Y-%m-%d")} #{commit.author.name}\n\n"
   end
 
   def call(env)
