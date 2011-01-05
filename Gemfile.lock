@@ -35,7 +35,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  git (= 1.2.5)
+  git
   rspec (= 2.0.0.beta.17)
   rspec-core (= 2.0.0.beta.17)
   rspec-expectations (= 2.0.0.beta.17)

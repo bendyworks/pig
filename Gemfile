@@ -1,6 +1,6 @@
-source :gemcutter
+source :rubygems
 
-gem "git", "= 1.2.5"
+gem 'git'
 
 group :development, :test do
   gem 'ruby-debug', '0.10.3'
